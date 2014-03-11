@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'capistrano-cake'
-  spec.version       = '0.0.2'
+  spec.version       = '0.0.3'
   spec.authors       = ['Joshua F. Rountree', 'Justin Slamka']
   spec.email         = ['joshua@swodev.com']
   spec.description   = %q{CakePHP deployment for Capistrano 3.x}
