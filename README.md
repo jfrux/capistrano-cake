@@ -1,6 +1,4 @@
-# Capistrano::FilePermissions
-
-File permissions handling for Capistrano v3.*
+# Capistrano::Cake
 
 ## Installation
 
