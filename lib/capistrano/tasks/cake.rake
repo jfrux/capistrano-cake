@@ -1,3 +1,3 @@
 namespace :deploy do
-  after :updated, 'deploy:set_permissions:acl'
+  after :updated, 'deploy:migrate'
 end
