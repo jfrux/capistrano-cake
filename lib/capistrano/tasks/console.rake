@@ -7,7 +7,7 @@ namespace :cake do
 
     on roles fetch(:cake_roles) do
       within release_path do
-        execute :php, :console, command, *args.extras, fetch(:cake_console_flags)
+        execute :cake, command, *args.extras, fetch(:cake_console_flags)
       end
     end
   end
