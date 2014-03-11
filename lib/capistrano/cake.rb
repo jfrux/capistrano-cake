@@ -1,6 +1,6 @@
-require "capistrano/cake/console"
+require "capistrano/cake/composer"
+require "capistrano/cake/migrations"
 require "capistrano/cake/cake"
-#require "capistrano/cake/migrations"
 
 namespace :load do
   task :defaults do

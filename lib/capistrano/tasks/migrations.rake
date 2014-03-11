@@ -1,7 +1,9 @@
 namespace :deploy do
   task :migrate do
-    within release_path do
-      invoke "cake:console", "Migrations.migration run"
+    on roles(:all) do
+      within release_path do
+        execute :cake, 'Migrations.migration run all'
+      end
     end
   end
 end
