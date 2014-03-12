@@ -1,5 +1,6 @@
 require "capistrano/cake/composer"
-require "capistrano/cake/migrations"
+require "capistrano/cake/asset_compress"
+#require "capistrano/cake/migrations"
 require "capistrano/cake/cake"
 
 namespace :load do
